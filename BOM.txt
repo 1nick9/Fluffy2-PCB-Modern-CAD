@@ -1,0 +1,43 @@
+U1			78L05
+U2			78L12
+U3			MAX232CPE
+U4			DB9 SOCKET
+U5			PIC16F84-10/P Microchip PIC or PIC16F84A-20/P (Maplin RN49D)
+U6			RED LED 3MM
+U7			ZTX300         NPN transistor (pin view /CBE\) or BC547C (Maplin QQ14Q) rotated by 180 degrees (pin view /EBC\)
+U8			ZTX500         PNP transistor (pin view /CBE\) or BC557C (Maplin QQ16S) rotated by 180 degrees (pin view /EBC\)
+U9			GREEN LED 3MM
+U10			ZTX500         PNP transistor (pin view /CBE\) or BC557C (Maplin QQ16S) rotated by 180 degrees (pin view /EBC\)
+
+D1			1N4148
+D2			1N4148
+D3			BAT85 or BAT43 (Maplin VR19V)
+
+X1			10HMz HC-49/4H
+
+C1			10uF 25V Radial Electrolytic
+C2			10uF 25V Radial Electrolytic
+C3			10uF 25V Radial Electrolytic
+C4			10uF 25V Radial Electrolytic
+C5			100nF
+C6			100nF
+C7			10uF 25V Radial Electrolytic
+C8			10uF 25V Radial Electrolytic
+C9			10uF 25V Radial Electrolytic
+C10			10uF 25V Radial Electrolytic
+C11			10pF
+C12			10pF
+C13			100nF
+
+
+R1			4K7
+R2			10K
+R3			10K
+R4			10K
+R5			470R
+R6			10K
+R7			10K
+R8			470R
+R9			4K7
+R10			100R
+R11			100R
