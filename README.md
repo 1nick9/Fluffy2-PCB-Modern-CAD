@@ -4,8 +4,6 @@ And here is. Fluffy2 modern cad. Both serial and usb via ftdi TTL adapter. CAD f
 
 works. default of ftdi in win is 9600 and bm 16. which programmer is 115200 and the 16 is stable as but super slow. sx28 seems fine at bm 1msec but sx48 top doesnt erase. 4 seems to be sweet spot for sx48 stable and fastest. play with icprog hw settings too for io delay i just have on direct io and default io delay of 10
 
-when fluffy2 cad sx48 seems future adding than designed round. serial is too fast with sx48 missing top. play with bios settings if possible. havent looked yet (been ages since used serial, lpt yeah but serial nah) and mix with io delay tuning. but as above how i have it stable sx48. Or pin 13 of pic is speed jumper could use for slow rate, didn't put header check fluffy2 original schematics for info. sx28 is np.
-
 enjoy
 
 Bom for both (drop 4x caps, db9 and Max for ftdi and get ftdi TTL adapter)
@@ -17,5 +15,4 @@ For ice sx28 use icprog ic set sx28_a this sets the memory as needs then open he
 Sources:
 https://hellspark.com/dm/ebench/sx/mirrors/www.semis.demon.co.uk/Sx/SXmain.htm
 
-http://www.ic-prog.com/download.html
-icprog i am using latest 1.06c
+update.. randomly got bored n decided to run icprog 1.05 off the fluffy2 site than latest from icprog. and what do know is pretty stable with the sx48. odd time doesnt erase right on bm 1 but just erase again n try writing. drops the writting panel for verify if not full erased. there go, best to use the icprog from the fluffy2 mirror than the latest icprog. serial of fluffy2 should be same too. no need for slow writting. likely could get more stable erasing messing with io delay in icprog.
