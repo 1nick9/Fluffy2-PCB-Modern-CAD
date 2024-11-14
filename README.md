@@ -10,6 +10,8 @@ Bom for both (drop 4x caps, db9 and Max for ftdi and get ftdi TTL adapter)
 
 I also left r11 off as just for mclr which not used with icsp. Its dropped on board if someone wants to just did icsp header too than dip sockets for sx18 sx28.
 
+Update so had some bits to get from wholesaler so got couple PIC16F84A-04/P in. and perfect with these both com/ftdi at full speed 115200 and usb/ftdi bm1. had originally just got 16F84-10/P off aliexpress as figure was eol mcu and cheaper as had nothing to get from wholesaler at time to make up for free post, which makes it real dear exercise. but yeah highly recommend getting 16F84A-04/P from legit wholesaler as much more stable and no issues with speed etc. could be difference between the a to non a also the 04 vs 10 or just straight up fake pic from china that worked but not up to speed. either way worth not cheaping out on the pic, though usb will work just slower speed.
+
 For ice sx28 use icprog ic set sx28_a this sets the memory as needs then open hex from ice pack. For it to verify sx28 disable cp fuse as won't be able to verify till sure got stable writing, I had np with bm 1 for sx28, sx48 4 new cad duo2 or 5 old cad, sx48 has cp disabled as rls fuse set.
 
 Sources:
